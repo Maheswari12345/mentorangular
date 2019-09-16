@@ -1,0 +1,64 @@
+<div class="mt-5">
+  <div class="card contentview ">
+    <div class="card-body">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="assets/images/Online-Payments.jpg" class="card-img" alt="..." height="300" width="100">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body" *ngIf="mentorDetails">
+            <table class="list-group list-group-flush">
+
+              <tr class="list-group-item">
+                <td>Payment Id:</td>
+                <td>{{mentorDetails.id}}</td>
+              </tr>
+              <tr class="list-group-item">
+                <td>email:</td>
+                <td>{{mentorDetails.email}}</td>
+              </tr>
+              <tr class="list-group-item">
+                <td>Course Name</td>
+                <td>{{mentorDetails.totalFee}}</td>
+              </tr>
+              <tr class="list-group-item">
+                <td>Slot1-Slot2-Slot3-slot-4 Wise Amount</td>
+                <td>{{mentorDetails.slot1}}-{{mentorDetails.slot2}}-{{mentorDetails.slot3}}-{{mentorDetails.slot4}}</td>
+              </tr>
+
+            </table>
+            <form (ngSubmit)="onSubmit()">
+
+              <div class="form-group col-md-6">
+                <label for="dateOfBirth">
+                  <h3>Enter the Quarter</h3>
+                </label>
+                <select id="slot" name="slot" [(ngModel)]="slot" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>slot1</option>
+                  <option>slot2</option>
+                  <option>slot3</option>
+                  <option>slot4</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="Mentor"><b>Search for a mentor to pay</b></label>
+                <input type="number" class="form-control" id="amount" [(ngModel)]="amount" name="amount"
+                  placeholder="Enter the amount you have to pay">
+              </div>
+
+
+              <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>

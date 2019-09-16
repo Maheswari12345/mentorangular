@@ -1,0 +1,48 @@
+<div class="mt-5">
+  <div class="card contentview ">
+    <div class="card-body">
+      <div class="row no-gutters">
+
+        <div class="col-md-8">
+
+          
+          <div class="card-body" *ngIf="mentor">
+            <table class="list-group list-group-flush">
+
+            
+              <tr class="list-group-item">
+                <td>name:</td>
+                <td>{{mentor.name}}</td>
+              </tr>
+
+              <tr class="list-group-item">
+                <td>Mentor Email :</td>
+                <td>{{mentor.email}}</td>
+              </tr>
+              <tr class="list-group-item">
+                <td>mentor Address:</td>
+                <td>{{mentor.address}}</td>
+              </tr>
+              <tr class="list-group-item">
+                <td>mentor Contact Number:</td>
+                <td>{{mentor.contactNumber}}</td>
+              </tr>
+
+            </table>
+
+             <br>
+             <br>
+
+            <button type="submit" (click)="deleteMentor()" class="btn btn-primary"> Delete Mentor</button>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>

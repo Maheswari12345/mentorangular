@@ -1,0 +1,30 @@
+
+    <div class="card profilecard sticky-top ">
+      <img src="assets/images/Profilepic.png" class="card-img-top" alt="...">
+      <div class="card-body">
+          <h5 class="card-title">Admin Profile</h5>
+
+      </div>
+      <table class="list-group list-group-flush" *ngIf="user">
+
+          <tr class="list-group-item" >
+              <td>Name:</td>
+              <td>{{user.name}}</td>
+          </tr>
+          <tr class="list-group-item">
+              <td>Role:</td>
+              <td>User</td>
+          </tr>
+          <tr class="list-group-item">
+              <td>Contact</td>
+              <td>{{user.contactNumber}}</td>
+          </tr>
+
+      </table>
+      <!-- <div class="card-body">
+          <a href="#" class="card-link">View History </a>
+          <a href="#" class="card-link">Edit Profile <img src="assets/images/editicon.jpg" width="20" height="20"
+                  alt=""></a><br>
+
+      </div> -->
+  </div>

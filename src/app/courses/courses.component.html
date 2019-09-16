@@ -1,0 +1,30 @@
+<div class="card profilecard sticky-top ">
+    <img src="assets/images/availablecourse.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">HTML and CSS</h5>
+
+    </div>
+  
+    <ul class="list-group list-group-flush"></ul>
+    <div *ngFor="let course of courses">
+     
+        <div *ngIf="course">
+        <li class="list-group-item">{{course.skillName}}</li>
+        
+        </div>
+
+
+    </div>
+
+   
+
+
+
+
+    <div class="card-body">
+        <a href="#" class="card-link">View History </a>
+        <a href="#" class="card-link">Edit Profile <img src="assets/images/editicon.jpg" width="20" height="20"
+                alt=""></a>
+    </div>
+</div>
+

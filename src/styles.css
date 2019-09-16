@@ -1,0 +1,121 @@
+/* You can add global styles to this file, and also import other style files */
+/* *
+{
+    border: 1px solid white;
+
+}  */
+.homeLink{
+    overflow: hidden;
+    
+}
+.navbar {
+    /* background-color: #352c66; */
+    background-color: rgb(0, 0, 0)
+}
+
+.bgimglogin{
+    background-image: url('assets/images/lib.jpg');
+    background-size: cover;
+    height: 85vh;
+    position: relative;
+  
+    
+}
+/* .bgimgothers{
+    background-image: url('assets/images/bodybackground.jpg');
+    background-size: cover;
+    height: 150vh;
+    position: relative;
+} */
+.bgimgothers{
+    background-image: url('assets/images/lib.jpg');
+    background-size: cover;
+    /* height: 150vh; */
+    position: relative;
+}
+
+.login {
+    float: right;
+    height: 100vh;
+}
+.bimg{
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 50%;
+}
+
+/* .heading {
+    font-size: 75px;
+ text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+} */
+
+.linksreg
+{
+    
+    background-color: rgb(73, 168, 245)!important;
+    border-radius: 5px;
+    margin-left: 250px;
+    
+   
+}
+.homeLink
+{
+    text-decoration: none;
+}
+.signup
+{
+    margin-top: 100px;
+}
+.signup1
+{
+    padding: 20px;
+    border-radius: 20px;
+}
+.mentorDetails
+{
+    border-radius: 20px;
+   
+}
+a:hover {
+    text-decoration: none;
+  }
+
+  .regbut {
+    color: #fff;
+    background-color: #007bff!important;
+    border-color: #007bff;
+  }
+  .navsurf
+  {
+      border: 2px solid black;
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+
+  }
+  .linksnav
+  {
+      font-size: 20px;
+     
+      /* justify-content: center/////////// */
+  }
+  .profilecard
+  {
+      margin-top: 50px;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  .contentview
+  {
+    margin-top: 50px;
+  }
+  .topm
+  {
+      margin-top: 50px !important;
+  }
+  .homelog
+  {
+    overflow: hidden;
+  }
+  /* fkgjfkgnksfgnjkfsdngkfjdngkdfngkdfngdfjngkjdfngkmngkfngkfng */

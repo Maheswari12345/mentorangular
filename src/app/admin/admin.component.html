@@ -1,0 +1,40 @@
+<div class="container-fluid ">
+    <div class="row  navsurf">
+        <div class="col-3  d-flex justify-content-around  linksnav">
+            <div> Hi {{email}}</div>
+            <div><a routerLink="MakeMentorPayment" routerLinkActive="active">Add Course</a></div>
+
+            <div><a routerLink="MakeMentorPayment" routerLinkActive="active">Make Mentor Payment</a></div>
+
+        </div>
+        <div class="col-6">
+            <div><a routerLink="MakeMentorPayment" routerLinkActive="active">Make Mentor Payment</a></div>
+        </div>
+        <div class="col-3 d-flex justify-content-around  linksnav">
+            <div><a routerLink="AdminSearch" class="dropdown-item" routerLinkActive="active">search</a></div>
+
+            
+            
+            <div><a routerLink="AdminSearch" routerLinkActive="active">Payment History</a></div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-2">
+            <app-admin-profile></app-admin-profile>
+        </div>
+        <div class="col-8">
+            <router-outlet></router-outlet>
+            
+        </div>
+        <div class="col-2">
+            <app-courses></app-courses>
+        </div>
+
+        
+    </div>
+</div>
